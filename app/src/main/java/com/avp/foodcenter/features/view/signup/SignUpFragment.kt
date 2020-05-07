@@ -1,19 +1,17 @@
 package com.avp.foodcenter.features.view.signup
 
+import android.content.Intent
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
-
+import com.avp.foodcenter.BottomNavigationActivity
 import com.avp.foodcenter.R
 import kotlinx.android.synthetic.main.fragment_sign_up.*
 
-/**
- * A simple [Fragment] subclass.
- */
 class SignUpFragment : Fragment() {
 
     private lateinit var mNavController: NavController
@@ -30,9 +28,9 @@ class SignUpFragment : Fragment() {
         initClickListener()
     }
 
-    private fun initClickListener(){
+    private fun initClickListener() {
         tvSignIn.setOnClickListener {
-            mNavController.popBackStack()
+            startActivity(Intent(context, BottomNavigationActivity::class.java))
         }
     }
 }

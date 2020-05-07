@@ -1,7 +1,10 @@
 <resources>
     <string name="app_name">FoodCenter</string>
 
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_main_title_home">Trang chủ</string>
+    <string name="fragment_main_title_profile">Hồ sơ</string>
+    <string name="fragment_main_title_chat">Tin nhắn</string>
+
     <string name="fragment_splash_screen_food_center">Food Center</string>
     <string name="fragment_sign_in_title">Đăng nhập</string>
     <string name="fragment_sign_in_hint_input_email_phone_number">Nhập email hoặc số điện thoại</string>
@@ -15,4 +18,9 @@
     <string name="fragment_sign_up_hint_input_birthday">Ngày tháng năm sinh</string>
 
     <string name="fragment_forget_password_title">Quên mật khẩu</string>
+    <string name="fragment_home_favourite">Yêu thích</string>
+    <string name="fragment_home_comment">Bình luận</string>
+    <string name="fragment_home_share">Chia sẻ</string>
+
+
 </resources>
